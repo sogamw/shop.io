@@ -1,0 +1,93 @@
+index.html
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>فروشگاه پوشاک</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      direction: rtl;
+      background-color: #f7f7f7;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px 10px;
+    }
+
+    .product {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin: 15px;
+      width: 220px;
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.3s;
+    }
+
+    .product:hover {
+      transform: scale(1.05);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    h1, h3 {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>فروشگاه پوشاک آریانا</h1>
+    <p>انواع لباس زنانه و مردانه با بهترین قیمت</p>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/220x250.png?text=لباس+زنانه" alt="لباس زنانه">
+      <h3>مانتو تابستانی</h3>
+      <p>۴۵۰,۰۰۰ تومان</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/220x250.png?text=پیراهن+مردانه" alt="پیراهن مردانه">
+      <h3>پیراهن مردانه</h3>
+      <p>۳۲۰,۰۰۰ تومان</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/220x250.png?text=شلوار+جین" alt="شلوار">
+      <h3>شلوار جین</h3>
+      <p>۳۹۰,۰۰۰ تومان</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>تماس: 09123456789 | اینستاگرام: @ariyana.shop</p>
+  </footer>
+
+</body>
+</html>
